@@ -6,7 +6,7 @@
 /*   By: pmonteir <pablo_monteiro@hotmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/02 13:36:41 by pmonteir          #+#    #+#             */
-/*   Updated: 2026/06/02 13:55:57 by pmonteir         ###   ########.fr       */
+/*   Updated: 2026/06/02 15:17:38 by pmonteir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,12 @@
 
 void	ft_print_numbers(void)
 {
-	int		i;
 	char	num;
 
-	i = 0;
-	while (i <= 9)
+	num = '0';
+	while (num <= '9')
 	{
-		num = '0' + i;
 		write(1, &num, 1);
-		i++;
+		num++;
 	}
 }
