@@ -1,0 +1,8 @@
+*.o
+*.a
+*.out
+vgcore.*
+.DS_Store
+.vscode/
+*.swp
+*~
