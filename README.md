@@ -1,23 +1,20 @@
-# c-core
+# 42_madrid — Pablo Monteiro
 
-Repositorio de aprendizaje y portfolio en C.
-42 Madrid — construido desde cero.
+Repositorio de la C Piscine y cursus de 42 Madrid.
 
 ## Estructura
 
-| Carpeta      | Contenido                                      |
-|--------------|------------------------------------------------|
-| pool/        | Ejercicios de la C Piscine de 42 (C00-C05)    |
-| libft/       | Libreria propia reimplementando libc           |
-| portfolio/   | Proyectos personales para demostrar dominio C  |
+| Carpeta    | Contenido                                   |
+|------------|---------------------------------------------|
+| pool/      | C Piscine — C00 a C05                       |
+| libft/     | Libreria propia reimplementando libc        |
 
 ## Compilacion
 
-Todos los modulos compilan con: cc -Wall -Wextra -Werror
+cc -Wall -Wextra -Werror
 
 ## Herramientas
 
-- cc -Wall -Wextra -Werror
 - gcc -fsanitize=address,undefined
 - valgrind --leak-check=full
 - norminette
